@@ -51,3 +51,7 @@ end
   total
 end
 
+def reduce_to_all_true(array) 
+  
+  
+end
