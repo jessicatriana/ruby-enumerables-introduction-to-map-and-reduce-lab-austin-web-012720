@@ -53,7 +53,7 @@ end
 
 def reduce_to_all_true(array) 
   index = 0 
-  if array[index] == true 
+  if array[index] === true 
     return true 
     index += 1 
   else
