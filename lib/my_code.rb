@@ -52,3 +52,5 @@ def reduce_to_total(array, starting_point)
 end
   total
 end
+
+reduce_to_total([1,2,3], 100)
