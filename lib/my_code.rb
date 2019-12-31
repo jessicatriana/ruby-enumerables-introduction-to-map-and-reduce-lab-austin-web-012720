@@ -58,4 +58,5 @@ def reduce_to_all_true(array)
     index += 1 
   else
     return false
+  end
 end
