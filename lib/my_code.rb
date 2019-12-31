@@ -41,12 +41,13 @@ end
 new_array 
 end
 
-def reduce_to_total(array, 0)
+def reduce_to_total(array, starting_point)
   total = 0
   index = 0
 
  while index < array.length
-    total = total + array[index]
+ 
+    total = starting_point + array[index]
     index += 1
 end
   total
