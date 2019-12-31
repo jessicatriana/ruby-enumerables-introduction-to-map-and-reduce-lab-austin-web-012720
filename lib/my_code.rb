@@ -50,3 +50,4 @@ while index < array.length
 end
   total
 end
+
